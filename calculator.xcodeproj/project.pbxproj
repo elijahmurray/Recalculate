@@ -36,7 +36,7 @@
 		94A4A7F21802A43900200A0C /* overlay-btn-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7EA1802A43900200A0C /* overlay-btn-plus.png */; };
 		94A4A7F31802A43900200A0C /* overlay-btn-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7EB1802A43900200A0C /* overlay-btn-plus@2x.png */; };
 		94A4A7F51802A47300200A0C /* overlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7F41802A47300200A0C /* overlayView.xib */; };
-		94A4A7FB1802C0A000200A0C /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7FA1802C0A000200A0C /* OverlayViewController.m */; };
+		94A4A8011802C5A000200A0C /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A8001802C5A000200A0C /* OverlayView.m */; };
 		94BB18CD17FF271500420D53 /* CalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18CC17FF271500420D53 /* CalcViewController.xib */; };
 		94BB18D117FF2EC000420D53 /* ContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18D017FF2EC000420D53 /* ContainerViewController.xib */; };
 		94BB18D417FF301900420D53 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18D217FF301900420D53 /* Main_iPad.storyboard */; };
@@ -96,8 +96,8 @@
 		94A4A7EA1802A43900200A0C /* overlay-btn-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-plus.png"; sourceTree = "<group>"; };
 		94A4A7EB1802A43900200A0C /* overlay-btn-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-plus@2x.png"; sourceTree = "<group>"; };
 		94A4A7F41802A47300200A0C /* overlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = overlayView.xib; sourceTree = "<group>"; };
-		94A4A7F91802C0A000200A0C /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
-		94A4A7FA1802C0A000200A0C /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		94A4A7FF1802C5A000200A0C /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		94A4A8001802C5A000200A0C /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
 		94BB18CC17FF271500420D53 /* CalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalcViewController.xib; sourceTree = "<group>"; };
 		94BB18D017FF2EC000420D53 /* ContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerViewController.xib; sourceTree = "<group>"; };
 		94BB18D217FF301900420D53 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 			children = (
 				94DEAE1217FBD1D000D0EE91 /* ViewController.h */,
 				94DEAE1317FBD1D000D0EE91 /* ViewController.m */,
-				94A4A7F91802C0A000200A0C /* OverlayViewController.h */,
-				94A4A7FA1802C0A000200A0C /* OverlayViewController.m */,
+				94A4A7FF1802C5A000200A0C /* OverlayView.h */,
+				94A4A8001802C5A000200A0C /* OverlayView.m */,
 				94A4A75F1802832500200A0C /* graphics */,
 			);
 			name = Controllers;
@@ -407,9 +407,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94DEAE1417FBD1D000D0EE91 /* ViewController.m in Sources */,
+				94A4A8011802C5A000200A0C /* OverlayView.m in Sources */,
 				94DEAE0B17FBD1D000D0EE91 /* AppDelegate.m in Sources */,
 				94DEAE0717FBD1D000D0EE91 /* main.m in Sources */,
-				94A4A7FB1802C0A000200A0C /* OverlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

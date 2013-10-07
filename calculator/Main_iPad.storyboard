@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wU-Wg-xQx" customClass="styledButton">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wU-Wg-xQx">
                                 <rect key="frame" x="0.0" y="320.5" width="255" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.30029653284671531" green="0.30029653284671531" blue="0.30029653284671531" alpha="1" colorSpace="deviceRGB"/>
@@ -29,7 +29,7 @@
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5S8-Sm-USk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzh-WF-1dd" customClass="styledButton">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzh-WF-1dd">
                                 <rect key="frame" x="256" y="320.5" width="256" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.30029653284671531" green="0.30029653284671531" blue="0.30029653284671531" alpha="1" colorSpace="deviceRGB"/>
@@ -42,7 +42,7 @@
                                     <action selector="digitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2re-iQ-v7q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYH-pd-nZn" customClass="styledButton">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYH-pd-nZn">
                                 <rect key="frame" x="513" y="320.5" width="255" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.30029653284671531" green="0.30029653284671531" blue="0.30029653284671531" alpha="1" colorSpace="deviceRGB"/>

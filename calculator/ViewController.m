@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <QuartzCore/QuartzCore.h>
 
 #define PLUS_TAG = 1;
 #define MINUS_TAG = 2;
@@ -47,18 +47,35 @@
 -(void)addSubview:(UIGestureRecognizer *)gesture {
 
     CGPoint coords = [gesture locationInView:gesture.view];
-
+    
     if (gesture.state == UIGestureRecognizerStateBegan) {
         _subview.frame = CGRectMake((coords.x - (_subview.frame.size.width * .5)),(coords.y - (_subview.frame.size.height * .5)), _subview.frame.size.width, _subview.frame.size.height);
         [gesture.view addSubview:_subview];
         NSLog(@"subview showing");
+        [self animateIn];
+
     }
    if (gesture.state == UIGestureRecognizerStateEnded) {
-        [_subview removeFromSuperview];
+       [UIView animateWithDuration:0.2 delay:0.0
+                           options:UIViewAnimationOptionAllowUserInteraction
+                        animations:^{ _subview.alpha = 0.0;}
+                        completion:^(BOOL fin) {
+                            if (fin) [_subview removeFromSuperview];
+                        }];
        NSLog(@"subview gone!");
+       
     }
     
 }
+
+-(void)animateIn {
+    _subview.alpha = 0.0f;
+    [UIView beginAnimations:NULL context:NULL];
+    [UIView setAnimationDuration:0.2];
+    _subview.alpha = 1.0f;
+    [UIView commitAnimations];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
