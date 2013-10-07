@@ -16,7 +16,7 @@
 
 @interface ViewController ()  {
     BOOL lastButtonPressedWasAnOperation;
-
+    CGPoint touchPoint;
 }
 
 @end
@@ -34,16 +34,29 @@
 //    UIGestureRecognizer *screenPressed = [UIGestureRecognizerStateBegan alloc];
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(addSubview:)];
     UIPanGestureRecognizer *fingerPressed = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(addSubview:)];
-
+    
     [self.view addGestureRecognizer:fingerPressed];
     [self.view addGestureRecognizer:longPress];
+ 
 }
 
--(void)addSubview:(UILongPressGestureRecognizer *)gesture {
-//    NSArray *subviewArray = [[NSBundle mainBundle] loadNibNamed:@"overlayView" owner:self options:nil];
-//    UIView *subView = [subviewArray objectAtIndex:0];
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [touches anyObject];
+    
+    // Get the specific point that was touched
+    CGPoint point = [touch locationInView:self.view];
+    NSLog(@"X location: %f", point.x);
+    NSLog(@"Y Location: %f",point.y);
+    
+}
+
+-(void)addSubview:(UIGestureRecognizer *)gesture {
+
+    CGPoint coords = [gesture locationInView:gesture.view];
 
     if (gesture.state == UIGestureRecognizerStateBegan) {
+        _subview.frame = CGRectMake((coords.x - (_subview.frame.size.width * .5)),(coords.y - (_subview.frame.size.height * .5)), _subview.frame.size.width, _subview.frame.size.height);
         [gesture.view addSubview:_subview];
         NSLog(@"subview showing");
     }
