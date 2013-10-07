@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94A4A76C180289E300200A0C /* btn-clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A768180289E300200A0C /* btn-clear.png */; };
+		94A4A76D180289E300200A0C /* btn-clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A769180289E300200A0C /* btn-clear@2x.png */; };
+		94A4A76E180289E300200A0C /* btn-delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A76A180289E300200A0C /* btn-delete.png */; };
+		94A4A76F180289E300200A0C /* btn-delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A76B180289E300200A0C /* btn-delete@2x.png */; };
+		94A4A78C1802917B00200A0C /* btn-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7841802917B00200A0C /* btn-plus.png */; };
+		94A4A78D1802917B00200A0C /* btn-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7851802917B00200A0C /* btn-plus@2x.png */; };
+		94A4A78E1802917B00200A0C /* btn-times.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7861802917B00200A0C /* btn-times.png */; };
+		94A4A78F1802917B00200A0C /* btn-times@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7871802917B00200A0C /* btn-times@2x.png */; };
+		94A4A7921802927D00200A0C /* btn-divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7901802927D00200A0C /* btn-divide.png */; };
+		94A4A7931802927D00200A0C /* btn-divide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7911802927D00200A0C /* btn-divide@2x.png */; };
+		94A4A796180292A800200A0C /* btn-minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A794180292A700200A0C /* btn-minus.png */; };
+		94A4A797180292A800200A0C /* btn-minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A795180292A700200A0C /* btn-minus@2x.png */; };
+		94A4A7A01802940C00200A0C /* btn-plus-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7981802940C00200A0C /* btn-plus-active.png */; };
+		94A4A7A11802940C00200A0C /* btn-plus-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7991802940C00200A0C /* btn-plus-active@2x.png */; };
+		94A4A7A21802940C00200A0C /* btn-minus-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79A1802940C00200A0C /* btn-minus-active.png */; };
+		94A4A7A31802940C00200A0C /* btn-minus-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79B1802940C00200A0C /* btn-minus-active@2x.png */; };
+		94A4A7A41802940C00200A0C /* btn-divide-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79C1802940C00200A0C /* btn-divide-active.png */; };
+		94A4A7A51802940C00200A0C /* btn-divide-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79D1802940C00200A0C /* btn-divide-active@2x.png */; };
+		94A4A7A61802940C00200A0C /* btn-times-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79E1802940C00200A0C /* btn-times-active.png */; };
+		94A4A7A71802940C00200A0C /* btn-times-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79F1802940C00200A0C /* btn-times-active@2x.png */; };
+		94A4A7CD18029FA700200A0C /* KSCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7C018029FA700200A0C /* KSCGUtils.m */; };
+		94A4A7CE18029FA700200A0C /* KSPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7C218029FA700200A0C /* KSPopoverView.m */; };
+		94A4A7CF18029FA700200A0C /* KSPopoverViewButtonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7C418029FA700200A0C /* KSPopoverViewButtonBase.m */; };
+		94A4A7D018029FA700200A0C /* KSPopoverViewButtonLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7C618029FA700200A0C /* KSPopoverViewButtonLabel.m */; };
+		94A4A7D118029FA700200A0C /* KSPopoverViewButtonOnOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7C818029FA700200A0C /* KSPopoverViewButtonOnOff.m */; };
+		94A4A7D218029FA700200A0C /* KSPopoverViewParentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7CA18029FA700200A0C /* KSPopoverViewParentButton.m */; };
+		94A4A7D318029FA700200A0C /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A4A7CC18029FA700200A0C /* UIColor-Expanded.m */; };
 		94BB18CD17FF271500420D53 /* CalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18CC17FF271500420D53 /* CalcViewController.xib */; };
 		94BB18D117FF2EC000420D53 /* ContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18D017FF2EC000420D53 /* ContainerViewController.xib */; };
 		94BB18D417FF301900420D53 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18D217FF301900420D53 /* Main_iPad.storyboard */; };
@@ -37,6 +64,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94A4A768180289E300200A0C /* btn-clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-clear.png"; sourceTree = "<group>"; };
+		94A4A769180289E300200A0C /* btn-clear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-clear@2x.png"; sourceTree = "<group>"; };
+		94A4A76A180289E300200A0C /* btn-delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-delete.png"; sourceTree = "<group>"; };
+		94A4A76B180289E300200A0C /* btn-delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-delete@2x.png"; sourceTree = "<group>"; };
+		94A4A7841802917B00200A0C /* btn-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-plus.png"; sourceTree = "<group>"; };
+		94A4A7851802917B00200A0C /* btn-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-plus@2x.png"; sourceTree = "<group>"; };
+		94A4A7861802917B00200A0C /* btn-times.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-times.png"; sourceTree = "<group>"; };
+		94A4A7871802917B00200A0C /* btn-times@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-times@2x.png"; sourceTree = "<group>"; };
+		94A4A7901802927D00200A0C /* btn-divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-divide.png"; sourceTree = "<group>"; };
+		94A4A7911802927D00200A0C /* btn-divide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-divide@2x.png"; sourceTree = "<group>"; };
+		94A4A794180292A700200A0C /* btn-minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-minus.png"; sourceTree = "<group>"; };
+		94A4A795180292A700200A0C /* btn-minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-minus@2x.png"; sourceTree = "<group>"; };
+		94A4A7981802940C00200A0C /* btn-plus-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-plus-active.png"; sourceTree = "<group>"; };
+		94A4A7991802940C00200A0C /* btn-plus-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-plus-active@2x.png"; sourceTree = "<group>"; };
+		94A4A79A1802940C00200A0C /* btn-minus-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-minus-active.png"; sourceTree = "<group>"; };
+		94A4A79B1802940C00200A0C /* btn-minus-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-minus-active@2x.png"; sourceTree = "<group>"; };
+		94A4A79C1802940C00200A0C /* btn-divide-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-divide-active.png"; sourceTree = "<group>"; };
+		94A4A79D1802940C00200A0C /* btn-divide-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-divide-active@2x.png"; sourceTree = "<group>"; };
+		94A4A79E1802940C00200A0C /* btn-times-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-times-active.png"; sourceTree = "<group>"; };
+		94A4A79F1802940C00200A0C /* btn-times-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-times-active@2x.png"; sourceTree = "<group>"; };
+		94A4A7BF18029FA700200A0C /* KSCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCGUtils.h; sourceTree = "<group>"; };
+		94A4A7C018029FA700200A0C /* KSCGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCGUtils.m; sourceTree = "<group>"; };
+		94A4A7C118029FA700200A0C /* KSPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverView.h; sourceTree = "<group>"; };
+		94A4A7C218029FA700200A0C /* KSPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverView.m; sourceTree = "<group>"; };
+		94A4A7C318029FA700200A0C /* KSPopoverViewButtonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewButtonBase.h; sourceTree = "<group>"; };
+		94A4A7C418029FA700200A0C /* KSPopoverViewButtonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewButtonBase.m; sourceTree = "<group>"; };
+		94A4A7C518029FA700200A0C /* KSPopoverViewButtonLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewButtonLabel.h; sourceTree = "<group>"; };
+		94A4A7C618029FA700200A0C /* KSPopoverViewButtonLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewButtonLabel.m; sourceTree = "<group>"; };
+		94A4A7C718029FA700200A0C /* KSPopoverViewButtonOnOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewButtonOnOff.h; sourceTree = "<group>"; };
+		94A4A7C818029FA700200A0C /* KSPopoverViewButtonOnOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewButtonOnOff.m; sourceTree = "<group>"; };
+		94A4A7C918029FA700200A0C /* KSPopoverViewParentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPopoverViewParentButton.h; sourceTree = "<group>"; };
+		94A4A7CA18029FA700200A0C /* KSPopoverViewParentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPopoverViewParentButton.m; sourceTree = "<group>"; };
+		94A4A7CB18029FA700200A0C /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		94A4A7CC18029FA700200A0C /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
 		94BB18CC17FF271500420D53 /* CalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalcViewController.xib; sourceTree = "<group>"; };
 		94BB18D017FF2EC000420D53 /* ContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerViewController.xib; sourceTree = "<group>"; };
 		94BB18D217FF301900420D53 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
@@ -85,6 +146,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94A4A75F1802832500200A0C /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				94A4A768180289E300200A0C /* btn-clear.png */,
+				94A4A769180289E300200A0C /* btn-clear@2x.png */,
+				94A4A76A180289E300200A0C /* btn-delete.png */,
+				94A4A76B180289E300200A0C /* btn-delete@2x.png */,
+				94A4A7841802917B00200A0C /* btn-plus.png */,
+				94A4A7851802917B00200A0C /* btn-plus@2x.png */,
+				94A4A7861802917B00200A0C /* btn-times.png */,
+				94A4A7871802917B00200A0C /* btn-times@2x.png */,
+				94A4A7901802927D00200A0C /* btn-divide.png */,
+				94A4A7911802927D00200A0C /* btn-divide@2x.png */,
+				94A4A794180292A700200A0C /* btn-minus.png */,
+				94A4A795180292A700200A0C /* btn-minus@2x.png */,
+				94A4A7981802940C00200A0C /* btn-plus-active.png */,
+				94A4A7991802940C00200A0C /* btn-plus-active@2x.png */,
+				94A4A79A1802940C00200A0C /* btn-minus-active.png */,
+				94A4A79B1802940C00200A0C /* btn-minus-active@2x.png */,
+				94A4A79C1802940C00200A0C /* btn-divide-active.png */,
+				94A4A79D1802940C00200A0C /* btn-divide-active@2x.png */,
+				94A4A79E1802940C00200A0C /* btn-times-active.png */,
+				94A4A79F1802940C00200A0C /* btn-times-active@2x.png */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		94A4A7BE18029FA700200A0C /* KSPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				94A4A7BF18029FA700200A0C /* KSCGUtils.h */,
+				94A4A7C018029FA700200A0C /* KSCGUtils.m */,
+				94A4A7C118029FA700200A0C /* KSPopoverView.h */,
+				94A4A7C218029FA700200A0C /* KSPopoverView.m */,
+				94A4A7C318029FA700200A0C /* KSPopoverViewButtonBase.h */,
+				94A4A7C418029FA700200A0C /* KSPopoverViewButtonBase.m */,
+				94A4A7C518029FA700200A0C /* KSPopoverViewButtonLabel.h */,
+				94A4A7C618029FA700200A0C /* KSPopoverViewButtonLabel.m */,
+				94A4A7C718029FA700200A0C /* KSPopoverViewButtonOnOff.h */,
+				94A4A7C818029FA700200A0C /* KSPopoverViewButtonOnOff.m */,
+				94A4A7C918029FA700200A0C /* KSPopoverViewParentButton.h */,
+				94A4A7CA18029FA700200A0C /* KSPopoverViewParentButton.m */,
+				94A4A7CB18029FA700200A0C /* UIColor-Expanded.h */,
+				94A4A7CC18029FA700200A0C /* UIColor-Expanded.m */,
+			);
+			name = KSPopoverView;
+			path = ../../../KSPopoverView/KSPopoverView;
+			sourceTree = "<group>";
+		};
 		94BB18CE17FF273400420D53 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +207,10 @@
 		94BB18CF17FF273F00420D53 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				94A4A7BE18029FA700200A0C /* KSPopoverView */,
 				94DEAE1217FBD1D000D0EE91 /* ViewController.h */,
 				94DEAE1317FBD1D000D0EE91 /* ViewController.m */,
+				94A4A75F1802832500200A0C /* graphics */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -254,10 +366,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				94BB18D417FF301900420D53 /* Main_iPad.storyboard in Resources */,
+				94A4A796180292A800200A0C /* btn-minus.png in Resources */,
+				94A4A78D1802917B00200A0C /* btn-plus@2x.png in Resources */,
+				94A4A7931802927D00200A0C /* btn-divide@2x.png in Resources */,
+				94A4A7921802927D00200A0C /* btn-divide.png in Resources */,
+				94A4A7A41802940C00200A0C /* btn-divide-active.png in Resources */,
+				94A4A7A71802940C00200A0C /* btn-times-active@2x.png in Resources */,
+				94A4A78F1802917B00200A0C /* btn-times@2x.png in Resources */,
+				94A4A78E1802917B00200A0C /* btn-times.png in Resources */,
+				94A4A78C1802917B00200A0C /* btn-plus.png in Resources */,
+				94A4A76D180289E300200A0C /* btn-clear@2x.png in Resources */,
+				94A4A76F180289E300200A0C /* btn-delete@2x.png in Resources */,
 				94DEAE1617FBD1D000D0EE91 /* Images.xcassets in Resources */,
+				94A4A76C180289E300200A0C /* btn-clear.png in Resources */,
 				94BB18D517FF301900420D53 /* Main_iPhone.storyboard in Resources */,
 				94DEAE0517FBD1D000D0EE91 /* InfoPlist.strings in Resources */,
+				94A4A76E180289E300200A0C /* btn-delete.png in Resources */,
 				94BB18CD17FF271500420D53 /* CalcViewController.xib in Resources */,
+				94A4A7A31802940C00200A0C /* btn-minus-active@2x.png in Resources */,
+				94A4A7A01802940C00200A0C /* btn-plus-active.png in Resources */,
+				94A4A7A11802940C00200A0C /* btn-plus-active@2x.png in Resources */,
+				94A4A7A51802940C00200A0C /* btn-divide-active@2x.png in Resources */,
+				94A4A7A61802940C00200A0C /* btn-times-active.png in Resources */,
+				94A4A797180292A800200A0C /* btn-minus@2x.png in Resources */,
+				94A4A7A21802940C00200A0C /* btn-minus-active.png in Resources */,
 				94BB18D117FF2EC000420D53 /* ContainerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,9 +409,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A4A7D218029FA700200A0C /* KSPopoverViewParentButton.m in Sources */,
+				94A4A7CD18029FA700200A0C /* KSCGUtils.m in Sources */,
+				94A4A7CE18029FA700200A0C /* KSPopoverView.m in Sources */,
 				94DEAE1417FBD1D000D0EE91 /* ViewController.m in Sources */,
 				94DEAE0B17FBD1D000D0EE91 /* AppDelegate.m in Sources */,
+				94A4A7D318029FA700200A0C /* UIColor-Expanded.m in Sources */,
 				94DEAE0717FBD1D000D0EE91 /* main.m in Sources */,
+				94A4A7CF18029FA700200A0C /* KSPopoverViewButtonBase.m in Sources */,
+				94A4A7D018029FA700200A0C /* KSPopoverViewButtonLabel.m in Sources */,
+				94A4A7D118029FA700200A0C /* KSPopoverViewButtonOnOff.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
