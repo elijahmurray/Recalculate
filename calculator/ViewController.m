@@ -31,25 +31,18 @@
 	lastButtonPressedWasAnOperation = NO;
     self.view.backgroundColor = [UIColor colorWithHue:0.0/255.0 saturation:0.0/255.0 brightness:65.0/255.0 alpha:1];
     
-//    UIGestureRecognizer *screenPressed = [UIGestureRecognizerStateBegan alloc];
+    [self addGestureRecognizers];
+}
+
+-(void)addGestureRecognizers {
+    //    UIGestureRecognizer *screenPressed = [UIGestureRecognizerStateBegan alloc];
     UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(addSubview:)];
     UIPanGestureRecognizer *fingerPressed = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(addSubview:)];
     
     [self.view addGestureRecognizer:fingerPressed];
     [self.view addGestureRecognizer:longPress];
- 
 }
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    UITouch *touch = [touches anyObject];
-    
-    // Get the specific point that was touched
-    CGPoint point = [touch locationInView:self.view];
-    NSLog(@"X location: %f", point.x);
-    NSLog(@"Y Location: %f",point.y);
-    
-}
 
 -(void)addSubview:(UIGestureRecognizer *)gesture {
 
