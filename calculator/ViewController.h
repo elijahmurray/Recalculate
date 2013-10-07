@@ -15,8 +15,10 @@ typedef enum{ Plus,Minus,Multiply,Divide} CalcOperation;
     NSString *storedValue;
 //    CalcOperation operation;
     NSString *operation;
+    
 }
 @property (weak, nonatomic) IBOutlet UIButton *keypadButton;
+@property (strong, nonatomic) UIView *subview;
 
 - (IBAction)digitButton:(UIButton *)sender;
 - (IBAction)operationPressed:(UIButton *)sender;
