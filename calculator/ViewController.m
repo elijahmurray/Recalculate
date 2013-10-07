@@ -28,26 +28,8 @@
     [super viewDidLoad];
 	lastButtonPressedWasAnOperation = NO;
     self.view.backgroundColor = [UIColor colorWithHue:0.0/255.0 saturation:0.0/255.0 brightness:65.0/255.0 alpha:1];
-    	UIImage *image = [UIImage imageNamed:@"btn-minus.png"];
-    _menu = [[KSPopoverView alloc] initWithType:KSPopoverTypeOnOffLabel
-										  image:image
-										  point:CGPointMake(50.0f, 340.0f)];
-	_menu.delegate = self;
-	_menu.position = KSPopoverPositionTopCenter;
-	//_menu.debug = YES;
-	[self.view addSubview:_menu];
-    
-	[_menu addButtonWithTitle:@"11111111"];
-	[_menu addButtonWithTitle:@"2222222222"];
-	[_menu addButtonWithTitle:@"3333333"];
-	[_menu addButtonWithTitle:@"444444444"];
-	[_menu addButtonWithTitle:@"555"];
-	[_menu addButtonWithTitle:@"666666666666"];
 
 }
--(void)popoverView:(KSPopoverView *)view selectedButtonIndex:(NSInteger)buttonIndex {
-}
-
 
 
 - (void)didReceiveMemoryWarning

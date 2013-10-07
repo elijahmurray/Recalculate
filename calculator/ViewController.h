@@ -7,16 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KSPopoverView.h"
+
 
 typedef enum{ Plus,Minus,Multiply,Divide} CalcOperation;
 
-@interface ViewController : UIViewController <KSPopoverViewDelegate> {
+@interface ViewController : UIViewController {
     IBOutlet UILabel *display;
     NSString *storedValue;
 //    CalcOperation operation;
     NSString *operation;
-    KSPopoverView *_menu;
 }
 @property (weak, nonatomic) IBOutlet UIButton *keypadButton;
 
