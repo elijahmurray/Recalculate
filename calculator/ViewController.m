@@ -28,9 +28,31 @@
     [super viewDidLoad];
 	lastButtonPressedWasAnOperation = NO;
     self.view.backgroundColor = [UIColor colorWithHue:0.0/255.0 saturation:0.0/255.0 brightness:65.0/255.0 alpha:1];
+    
+//    UIGestureRecognizer *screenPressed = [UIGestureRecognizerStateBegan alloc];
+    UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(addSubview:)];
+    UIPanGestureRecognizer *fingerPressed = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(addSubview:)];
+    
+    
 
+    [self.view addGestureRecognizer:fingerPressed];
+    [self.view addGestureRecognizer:longPress];
 }
 
+-(void)addSubview:(UILongPressGestureRecognizer *)gesture {
+    NSArray *subviewArray = [[NSBundle mainBundle] loadNibNamed:@"overlayView" owner:self options:nil];
+//    UIView *myview = [[NSBundle mainBundle] loadNibNamed:@"overlayView" owner:self options:Nil];
+    UIView *mainView = [subviewArray objectAtIndex:0];
+    if (gesture.state == UIGestureRecognizerStateBegan) {
+        [self.view addSubview:mainView];
+        NSLog(@"hah");
+    }
+   if (gesture.state == UIGestureRecognizerStateEnded) {
+//        [self.overlayView.view removeFromSuperview];
+        NSLog(@"fghj");
+    }
+    
+}
 
 - (void)didReceiveMemoryWarning
 {

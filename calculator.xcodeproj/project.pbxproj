@@ -27,6 +27,15 @@
 		94A4A7A51802940C00200A0C /* btn-divide-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79D1802940C00200A0C /* btn-divide-active@2x.png */; };
 		94A4A7A61802940C00200A0C /* btn-times-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79E1802940C00200A0C /* btn-times-active.png */; };
 		94A4A7A71802940C00200A0C /* btn-times-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A79F1802940C00200A0C /* btn-times-active@2x.png */; };
+		94A4A7EC1802A43900200A0C /* overlay-btn-divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7E41802A43900200A0C /* overlay-btn-divide.png */; };
+		94A4A7ED1802A43900200A0C /* overlay-btn-divide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7E51802A43900200A0C /* overlay-btn-divide@2x.png */; };
+		94A4A7EE1802A43900200A0C /* overlay-btn-minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7E61802A43900200A0C /* overlay-btn-minus.png */; };
+		94A4A7EF1802A43900200A0C /* overlay-btn-minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7E71802A43900200A0C /* overlay-btn-minus@2x.png */; };
+		94A4A7F01802A43900200A0C /* overlay-btn-multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7E81802A43900200A0C /* overlay-btn-multiply.png */; };
+		94A4A7F11802A43900200A0C /* overlay-btn-multiply@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7E91802A43900200A0C /* overlay-btn-multiply@2x.png */; };
+		94A4A7F21802A43900200A0C /* overlay-btn-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7EA1802A43900200A0C /* overlay-btn-plus.png */; };
+		94A4A7F31802A43900200A0C /* overlay-btn-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7EB1802A43900200A0C /* overlay-btn-plus@2x.png */; };
+		94A4A7F51802A47300200A0C /* overlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A4A7F41802A47300200A0C /* overlayView.xib */; };
 		94BB18CD17FF271500420D53 /* CalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18CC17FF271500420D53 /* CalcViewController.xib */; };
 		94BB18D117FF2EC000420D53 /* ContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18D017FF2EC000420D53 /* ContainerViewController.xib */; };
 		94BB18D417FF301900420D53 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BB18D217FF301900420D53 /* Main_iPad.storyboard */; };
@@ -77,6 +86,15 @@
 		94A4A79D1802940C00200A0C /* btn-divide-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-divide-active@2x.png"; sourceTree = "<group>"; };
 		94A4A79E1802940C00200A0C /* btn-times-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-times-active.png"; sourceTree = "<group>"; };
 		94A4A79F1802940C00200A0C /* btn-times-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-times-active@2x.png"; sourceTree = "<group>"; };
+		94A4A7E41802A43900200A0C /* overlay-btn-divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-divide.png"; sourceTree = "<group>"; };
+		94A4A7E51802A43900200A0C /* overlay-btn-divide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-divide@2x.png"; sourceTree = "<group>"; };
+		94A4A7E61802A43900200A0C /* overlay-btn-minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-minus.png"; sourceTree = "<group>"; };
+		94A4A7E71802A43900200A0C /* overlay-btn-minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-minus@2x.png"; sourceTree = "<group>"; };
+		94A4A7E81802A43900200A0C /* overlay-btn-multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-multiply.png"; sourceTree = "<group>"; };
+		94A4A7E91802A43900200A0C /* overlay-btn-multiply@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-multiply@2x.png"; sourceTree = "<group>"; };
+		94A4A7EA1802A43900200A0C /* overlay-btn-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-plus.png"; sourceTree = "<group>"; };
+		94A4A7EB1802A43900200A0C /* overlay-btn-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-btn-plus@2x.png"; sourceTree = "<group>"; };
+		94A4A7F41802A47300200A0C /* overlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = overlayView.xib; sourceTree = "<group>"; };
 		94BB18CC17FF271500420D53 /* CalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalcViewController.xib; sourceTree = "<group>"; };
 		94BB18D017FF2EC000420D53 /* ContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerViewController.xib; sourceTree = "<group>"; };
 		94BB18D217FF301900420D53 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
@@ -128,6 +146,14 @@
 		94A4A75F1802832500200A0C /* graphics */ = {
 			isa = PBXGroup;
 			children = (
+				94A4A7E41802A43900200A0C /* overlay-btn-divide.png */,
+				94A4A7E51802A43900200A0C /* overlay-btn-divide@2x.png */,
+				94A4A7E61802A43900200A0C /* overlay-btn-minus.png */,
+				94A4A7E71802A43900200A0C /* overlay-btn-minus@2x.png */,
+				94A4A7E81802A43900200A0C /* overlay-btn-multiply.png */,
+				94A4A7E91802A43900200A0C /* overlay-btn-multiply@2x.png */,
+				94A4A7EA1802A43900200A0C /* overlay-btn-plus.png */,
+				94A4A7EB1802A43900200A0C /* overlay-btn-plus@2x.png */,
 				94A4A768180289E300200A0C /* btn-clear.png */,
 				94A4A769180289E300200A0C /* btn-clear@2x.png */,
 				94A4A76A180289E300200A0C /* btn-delete.png */,
@@ -157,6 +183,7 @@
 			children = (
 				94BB18CC17FF271500420D53 /* CalcViewController.xib */,
 				94BB18D017FF2EC000420D53 /* ContainerViewController.xib */,
+				94A4A7F41802A47300200A0C /* overlayView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -332,21 +359,30 @@
 				94A4A78E1802917B00200A0C /* btn-times.png in Resources */,
 				94A4A78C1802917B00200A0C /* btn-plus.png in Resources */,
 				94A4A76D180289E300200A0C /* btn-clear@2x.png in Resources */,
+				94A4A7EF1802A43900200A0C /* overlay-btn-minus@2x.png in Resources */,
 				94A4A76F180289E300200A0C /* btn-delete@2x.png in Resources */,
 				94DEAE1617FBD1D000D0EE91 /* Images.xcassets in Resources */,
+				94A4A7F31802A43900200A0C /* overlay-btn-plus@2x.png in Resources */,
 				94A4A76C180289E300200A0C /* btn-clear.png in Resources */,
 				94BB18D517FF301900420D53 /* Main_iPhone.storyboard in Resources */,
 				94DEAE0517FBD1D000D0EE91 /* InfoPlist.strings in Resources */,
 				94A4A76E180289E300200A0C /* btn-delete.png in Resources */,
+				94A4A7EC1802A43900200A0C /* overlay-btn-divide.png in Resources */,
+				94A4A7F51802A47300200A0C /* overlayView.xib in Resources */,
 				94BB18CD17FF271500420D53 /* CalcViewController.xib in Resources */,
+				94A4A7F21802A43900200A0C /* overlay-btn-plus.png in Resources */,
 				94A4A7A31802940C00200A0C /* btn-minus-active@2x.png in Resources */,
 				94A4A7A01802940C00200A0C /* btn-plus-active.png in Resources */,
 				94A4A7A11802940C00200A0C /* btn-plus-active@2x.png in Resources */,
 				94A4A7A51802940C00200A0C /* btn-divide-active@2x.png in Resources */,
+				94A4A7F11802A43900200A0C /* overlay-btn-multiply@2x.png in Resources */,
 				94A4A7A61802940C00200A0C /* btn-times-active.png in Resources */,
+				94A4A7F01802A43900200A0C /* overlay-btn-multiply.png in Resources */,
 				94A4A797180292A800200A0C /* btn-minus@2x.png in Resources */,
+				94A4A7EE1802A43900200A0C /* overlay-btn-minus.png in Resources */,
 				94A4A7A21802940C00200A0C /* btn-minus-active.png in Resources */,
 				94BB18D117FF2EC000420D53 /* ContainerViewController.xib in Resources */,
+				94A4A7ED1802A43900200A0C /* overlay-btn-divide@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

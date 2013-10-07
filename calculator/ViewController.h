@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 typedef enum{ Plus,Minus,Multiply,Divide} CalcOperation;
 
 @interface ViewController : UIViewController {
