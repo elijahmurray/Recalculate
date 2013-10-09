@@ -14,6 +14,7 @@
 #define DIVIDE_TAG = 3;
 #define TIMES_TAG = 4;
 
+
 @interface ViewController ()  {
     BOOL lastButtonPressedWasAnOperation;
     CGPoint touchPoint;
@@ -56,6 +57,23 @@
 
     }
    if (gesture.state == UIGestureRecognizerStateEnded) {
+       CGPoint releasePoint = [gesture locationInView:gesture.view];
+       UIView *selectedView = [gesture.view hitTest:releasePoint withEvent:nil];
+       storedValue = display.text;
+       if (selectedView.tag == 1) {
+           operation = @"+";
+       }
+       else if (selectedView.tag == 2) {
+           operation = @"-";
+       }
+       else if (selectedView.tag == 3) {
+           operation = @"/";
+       }
+       else if (selectedView.tag == 4) {
+           operation = @"*";
+       };
+       NSLog(@"storedValue is %@, and the operation is %@",storedValue, operation);
+       lastButtonPressedWasAnOperation = YES;
        [UIView animateWithDuration:0.2 delay:0.0
                            options:UIViewAnimationOptionAllowUserInteraction
                         animations:^{ _subview.alpha = 0.0;}
@@ -66,6 +84,10 @@
        
     }
     
+}
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+
+    return self.view;
 }
 
 -(void)animateIn {
